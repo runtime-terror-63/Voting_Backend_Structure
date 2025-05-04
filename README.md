@@ -1,7 +1,7 @@
 
 # 🗳️ Voting_Backend_Structure
 
-This is a **backend application** for a simple voting system where users can vote for candidates. It supports user authentication, candidate management, and vote casting, with role-based access control for admins and users.
+This is a **backend application** for a simple voting system where users can vote for candidates. It supports user authentication, candidate management, and vote casting, with role-based access control for admin and users.
 
 ---
 
@@ -78,6 +78,6 @@ npm install
 - `POST /candidate/vote/:id`  
   ➤ Vote for a candidate (User only, one vote per user)
 
-- `GET /candidate/vote/count`  
+- `GET /candidate/voted/count`  
   ➤ Get total votes for each candidate
 
