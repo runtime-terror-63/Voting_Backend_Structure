@@ -35,6 +35,14 @@ cd Voting_Backend_Structure
 npm install
 ```
 
+##.env
+
+```bash
+JWT_SECRET=
+PORT=
+MONGODB_URL_LOCAL=
+```
+
 ## 📡 API Endpoints
 
 ### 🔐 Authentication
