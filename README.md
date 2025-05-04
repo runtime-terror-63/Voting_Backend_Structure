@@ -35,7 +35,7 @@ cd Voting_Backend_Structure
 npm install
 ```
 
-##.env
+##dotenv
 
 ```bash
 JWT_SECRET=
